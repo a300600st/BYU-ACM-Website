@@ -9,62 +9,100 @@ caption,th,td{text-align:left;font-weight:normal}
 html{height:100%}
 
 body {
+	font-family:"Arial", "Helvetica", sans-serif;
   	background:#FFF;
 }
 
-#header{
-	background: #347;
-	width:900px;
-	height:200px;
+#header {
+	background: #CCC;
+	width:960px;
+	height:190px;
 	margin:0 auto;
 }
 #headertop {
-	height:100px;
+	height:160px;
+	background: #334c80;
 }
 #headertopleft {
 	float:left;
-	width:400px;
-	margin:10px;
+	width:500px;
 }
+#headertopleft img {
+	float:left;
+	padding:10px;
+}
+#headertopleft #titletext {
+	float:right;
+	width:305px;
+	margin-right:25px;
+	margin-top:30px;
+}
+#headertopleft #titletext h1 {
+	font-size:70px;
+	color:#17ABE2;
+	font-weight:100;
+}
+#headertopleft #titletext b {
+	color:#FFF;
+}
+
+#headertopleft #titletext p {
+	color:#FFF;
+	padding-left:5px;
+	font-size:18px;	
+}
+
 
 #headertopright {
 	float:right;
-	width:400px;
-	margin:10px;	
+	width:250px;
+	margin:10px;
+	margin-top:45px;	
+}
+
+#headertopright #searchbar {
+	width:220px;
+	float:right;
+	height:25px;
+}
+
+
+#headertopright #headerlinks {
+	float:right;
+	width:150px;
+	padding-right:20px;
+	padding-top:5px;
+}
+
+#headertopright #headerlinks img {
+	float:right;
+	padding:4px;
 }
 
 #headerbottom {
+	background:#999;
 	
 }
 
-#nav_out {
-	float:left;
-	background: #333 url(img/bar_r2.gif) top right repeat-y;
-}
 #nav {
 	float: left;
-	padding-left:20px;
-	width:958px;
-	border: 1px solid #A6A6A6;
-	border-top:none;
-	border-bottom:none;
+	width:960px;
+	
 }
-#nav li {
+#nav li{
+	width:240px;
 	float: left;
-	margin: 0 10px 0 0;
-	padding:0;
-	font-size: 90%;
 }
+
 #nav a {
-	float:left;
+	/*float:left;*/
 	display:block;
-	padding: 4px 35px 4px 0px;
+	text-align:center;
 	color: #000;
+	font-size:24px;
+	font-weight:bold;
 	text-decoration:none;
-	font-family:Arial, Helvetica, sans-serif;
-	background: url(img/diag.gif) top right no-repeat;
 }
 #nav a:hover {
-	color:#00a8cc;
-	text-decoration:underline;
+	background:#666;
 }
