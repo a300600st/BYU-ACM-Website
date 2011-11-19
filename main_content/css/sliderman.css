@@ -1,0 +1,42 @@
+#sponsors_div {
+	border-radius: 10px 10px;
+	-webkit-border-radius: 10px 10px;
+	float: left;
+	padding: 10px;
+	width: 629px;
+}
+
+#sponsors {
+	width: 629px;
+	height: 300px;
+	margin: auto;
+}
+
+.sponsorsPrev {
+	background: url(../images/left.gif) no-repeat center center;
+	width: 24px;
+	height: 24px;
+	display: block;
+	position: absolute;
+	top: 156px;
+	left: 10px;
+	text-decoration: none;
+}
+
+.sponsorsNext{
+	background: url(../images/right.gif) no-repeat center center;
+	width: 24px;
+	height: 24px;
+	display: block;
+	position: absolute;
+	top: 156px;
+	right: 10px;
+	text-decoration: none;
+}
+
+.sponsorsDescription{
+	font-family: Verdana;
+	font-size: 10px;
+	text-align: left;
+	padding: 5px;
+}
