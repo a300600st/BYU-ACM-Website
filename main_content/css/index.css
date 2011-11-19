@@ -1,0 +1,14 @@
+#info {
+	margin-right: 16px;
+	float: left;
+	width: 629px;
+}
+#info_logo {
+	float: right;
+	height: 135px;
+	width: 145px;
+}
+#facebook {
+	float: right;
+	width: 281px !important;
+}
