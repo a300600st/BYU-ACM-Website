@@ -1,17 +1,34 @@
+#main_slider_div {
+	border-radius: 10px 10px;
+	-webkit-border-radius: 10px 10px;
+	width: 960px;
+}
 #sponsors_div {
 	border-radius: 10px 10px;
 	-webkit-border-radius: 10px 10px;
 	float: left;
 	padding: 10px;
-	width: 629px;
+	width: 608px;
 }
-
+#main_slider {
+	height: 518px;
+	margin: auto;
+}
 #sponsors {
-	width: 629px;
-	height: 300px;
+	height: 328px;
 	margin: auto;
 }
 
+.main_sliderPrev {
+	background: url(../images/left.gif) no-repeat center center;
+	width: 24px;
+	height: 24px;
+	display: block;
+	position: absolute;
+	top: 222px;
+	left: 10px;
+	text-decoration: none;
+}
 .sponsorsPrev {
 	background: url(../images/left.gif) no-repeat center center;
 	width: 24px;
@@ -23,7 +40,17 @@
 	text-decoration: none;
 }
 
-.sponsorsNext{
+.main_sliderNext {
+	background: url(../images/right.gif) no-repeat center center;
+	width: 24px;
+	height: 24px;
+	display: block;
+	position: absolute;
+	top: 222px;
+	right: 10px;
+	text-decoration: none;
+}
+.sponsorsNext {
 	background: url(../images/right.gif) no-repeat center center;
 	width: 24px;
 	height: 24px;
@@ -34,7 +61,13 @@
 	text-decoration: none;
 }
 
-.sponsorsDescription{
+.main_sliderDescription {
+	font-family: Verdana;
+	font-size: 10px;
+	text-align: left;
+	padding: 5px;
+}
+.sponsorsDescription {
 	font-family: Verdana;
 	font-size: 10px;
 	text-align: left;

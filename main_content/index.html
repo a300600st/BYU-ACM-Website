@@ -6,12 +6,69 @@
 		<script type="text/javascript" src="js/sliderman.1.3.6.js"></script>
 		<link href="css/style-reset.css" rel="stylesheet" type="text/css" />
 		<link href="css/layout.css" rel="stylesheet" type="text/css" />
+		<link href="css/header.css" rel="stylesheet" type="text/css" />
 		<link href="css/index.css" rel="stylesheet" type="text/css" />
 		<link href="css/print.css" media="print,tv" rel="stylesheet" type="text/css" />
 		<link href="css/sliderman.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
 		<div id="wrapper">
+			<div id="header">
+				<div id="headertop">
+					<div id="headertopleft">
+						<img src= "images/header/acm_logo_small.png"/>
+						<div id="titletext"> 
+							<h1><span class="white">BYU</span>ACM</h1>
+							<p>Association for Computing Machinery</p>		      
+						</div>
+					</div>
+					<div id="headertopright">
+						<div id="searchbar">
+							  <input type="text" />
+							  <input type="button" value="search" onClick="BLAHBLAH" />
+						</div>
+						<div id="headerlinks">
+							<a href="RSSFEED"><img class="headericons" src="../img/rssthumb.png"></a><a href="TWITTER"><img class="headericons" src="../img/twitterthumb.png" /></a><a href="http://www.facebook.com/BYUACM?sk=wall"><img class="headericons" src="../img/facebookthumb.png" /></a>
+						</div>
+					</div>
+				</div>
+				<div id="headerbottom">
+					<ul id="nav">
+						<ul>
+							<li><a href="about.html">About</a></li>
+							<li><a href="events.php">Events</a></li>
+							<li><a href="sponsers.php">Sponsors</a></li>
+							<li><a href="contact.php">Contact</a></li>
+						</ul>
+					</ul>
+				</div>
+			</div>
+			<div id="main_slider_div">
+				<div id="main_slider">
+					<a href="#1">
+						<img src="images/Campus-Panoramic1.jpg" />
+					</a>
+					<img src="images/Mentoring1.jpg" />
+					<img src="images/TMCB-Talmage-Building1.jpg" />
+				</div>
+				<div class="c"></div>
+				<div id="main_sliderNavigation"></div>
+				<div class="c"></div>
+				<script type="text/javascript">
+					Sliderman.effect({name: 'move', fade: true, duration: 800});
+					var sponsorSlider = Sliderman.slider({container: 'main_slider', width: 960, height: 518, effects: 'move',
+					display: {
+						pause: true, // slider pauses on mouseover
+						autoplay: 7000, // 3 seconds slideshow
+						/*always_show_loading: 200, // testing loading mode*/
+						description: {background: '#ffffff', opacity: 0.5, height: 50, position: 'bottom'}, // image description box settings
+						loading: {background: '#000000', opacity: 0.2, image: 'images/loading.gif'}, // loading box settings
+						buttons: {opacity: 1, prev: {className: 'main_sliderPrev', label: ''}, next: {className: 'main_sliderNext', label: ''}}, // Next/Prev buttons settings
+						/*navigation: {container: 'SliderNameNavigation', label: '&nbsp;'} // navigation (pages) settings*/
+					}});
+				</script>
+				<div class="c"></div>
+			</div>
 			<div id="content">
 				<div id="info">
 					<h1>What is BYU ACM?</h1>
@@ -31,18 +88,18 @@
 					<div id="sponsors_div">
 						<div id="sponsors">
 							<a href="#1">
-								<img src="images/1.jpg" title="Description from Image Title" />
+								<img src="images/sponsor_slider/1.jpg" title="Description from Image Title" />
 							</a>
-							<img src="images/2.jpg" />
-							<img src="images/3.jpg" />
-							<img src="images/4.jpg" />
+							<img src="images/sponsor_slider/2.jpg" />
+							<img src="images/sponsor_slider/3.jpg" />
+							<img src="images/sponsor_slider/4.jpg" />
 						</div>
 						<div class="c"></div>
 						<div id="sponsorsNavigation"></div>
 						<div class="c"></div>
 						<script type="text/javascript">
 							Sliderman.effect({name: 'move', fade: true, duration: 800});
-							var sponsorSlider = Sliderman.slider({container: 'sponsors', width: 629, height: 340, effects: 'move',
+							var sponsorSlider = Sliderman.slider({container: 'sponsors', width: 608, height: 328, effects: 'move',
 							display: {
 								pause: true, // slider pauses on mouseover
 								autoplay: 7000, // 3 seconds slideshow
@@ -58,7 +115,7 @@
 				</div>
 				<div id="facebook">
 					<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
-					<fb:like-box href="http://www.facebook.com/BYUACM" width="289" show_faces="true" stream="true" header="true"></fb:like-box>
+					<fb:like-box href="http://www.facebook.com/BYUACM" width="273" show_faces="true" stream="true" header="true"></fb:like-box>
 				</div>
 				<div class="clear"></div>
 			</div>
