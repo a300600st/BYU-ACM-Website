@@ -21,7 +21,7 @@ body {
 }
 #headertop {
 	height:160px;
-	background: #334c80;
+	background: #334c80 url(img/header_banner.jpg) no-repeat;
 }
 #headertopleft {
 	float:left;
@@ -85,12 +85,14 @@ body {
 }
 
 #nav {
+	
 	float: left;
 	width:960px;
 	
 }
 #nav li{
 	width:240px;
+
 	float: left;
 }
 
