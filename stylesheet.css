@@ -9,11 +9,11 @@ caption,th,td{text-align:left;font-weight:normal}
 html{height:100%}
 
 body {
-  	background:#0F2E4D;
+  	background:#FFF;
 }
 
 #header{
-	background: #C00;
+	background: #347;
 	width:900px;
 	height:200px;
 	margin:0 auto;
@@ -59,7 +59,7 @@ body {
 	float:left;
 	display:block;
 	padding: 4px 35px 4px 0px;
-	color: #FFF;
+	color: #000;
 	text-decoration:none;
 	font-family:Arial, Helvetica, sans-serif;
 	background: url(img/diag.gif) top right no-repeat;
