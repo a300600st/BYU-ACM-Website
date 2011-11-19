@@ -1,0 +1,36 @@
+#slider_container_1 { float: left; padding: 10px; width: 960px; -webkit-border-radius: 10px 10px; border-radius: 10px 10px; }
+
+#SliderName{
+	width: 960px;
+	height: 300px;
+	margin: auto;
+}
+
+.SliderNamePrev{
+	background: url(../img/left.gif) no-repeat center center;
+	width: 24px;
+	height: 24px;
+	display: block;
+	position: absolute;
+	top: 212px;
+	left: 10px;
+	text-decoration: none;
+}
+
+.SliderNameNext{
+	background: url(../img/right.gif) no-repeat center center;
+	width: 24px;
+	height: 24px;
+	display: block;
+	position: absolute;
+	top: 212px;
+	right: 10px;
+	text-decoration: none;
+}
+
+.SliderNameDescription{
+	font-family: Verdana;
+	font-size: 10px;
+	text-align: left;
+	padding: 5px;
+}
