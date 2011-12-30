@@ -1,0 +1,23 @@
+#container {
+	height:830px;
+}
+#content {
+	font-family: Georgia, serif;	
+	padding: 16px 8px 0 8px;
+}
+#content h2 {
+	font-size: 20pt;
+}
+
+#content h3 {
+	font-size: 18pt;
+	margin: 0;
+}
+
+#content li {
+	padding:10px;
+}
+#content p {
+	padding: 10px 0;
+}
+

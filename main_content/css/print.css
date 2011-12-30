@@ -1,0 +1,35 @@
+body {
+	font-family: Garamond, Georgia, 'Times New Roman', serif;
+	color: #000;
+	background: #fff;
+}
+#nav, #footer {
+	display: none;
+}
+#header h1 {
+	font-size: 42pt;
+	font-style: italic;
+	margin: 0;
+	text-align: center;
+}
+#header h2 {
+	text-align: center;
+	font-size: 10pt;
+}
+#content h2 {
+	font-size: 32pt;
+	font-style: italic;
+}
+
+#content h3 {
+	font-size: 18pt;
+	margin: 0;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+#content a:after {
+	content: " ("attr(href)") ";
+	font-size: 10pt;
+}

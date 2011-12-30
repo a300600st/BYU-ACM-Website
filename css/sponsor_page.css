@@ -1,0 +1,42 @@
+#container {
+	height:1740px;
+}
+#content {
+	float:left;
+	font-family: Georgia, serif;	
+	padding: 16px 8px 0 8px;
+	height:1470px;
+}
+#content h2 {
+	float:left;
+	width:960px;
+	font-size: 20pt;
+}
+
+#content h3 {
+	float:left;
+	font-size:15pt;
+	width:960px;
+}
+
+#content p {
+	float:left;
+	width:940px;
+	margin-left:20px;
+}
+
+#content h3 a {
+
+	text-decoration:none;
+}
+
+#content li {
+	float:left;
+	width:250px;
+	height:150px;
+	padding:20px;
+}
+#content p {
+	padding: 10px 0;
+}
+

@@ -1,0 +1,49 @@
+#SliderName{
+	margin: auto;
+}
+
+.SliderNamePrev{
+	background: url(../img/left.gif) no-repeat center center;
+	width: 24px;
+	height: 24px;
+	display: block;
+	position: absolute;
+	top: 222px;
+	left: -8px;
+	text-decoration: none;
+}
+
+.SliderNameNext{
+	background: url(../img/right.gif) no-repeat center center;
+	width: 24px;
+	height: 24px;
+	display: block;
+	position: absolute;
+	top: 222px;
+	right: -8px;
+	text-decoration: none;
+}
+
+.SliderNamePrev2{
+
+	display: block;
+	position: absolute;
+	top: 130px;
+	left: -8px;
+	text-decoration: none;
+}
+
+.SliderNameNext2{
+	display: block;
+	position: absolute;
+	top: 130px;
+	right: -8px;
+	text-decoration: none;
+}
+
+.SliderNameDescription{
+	font-family: Verdana;
+	font-size: 10px;
+	text-align: left;
+	padding: 5px;
+}
