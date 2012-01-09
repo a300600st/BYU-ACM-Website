@@ -13,41 +13,44 @@
 <?php include("header/header.php") ?>
 
 <div id="content">
-    <h2>Platinum Level Sponsors</h2>
-    <ul>
-        <li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
-        <li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
-        <li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
-        <li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>			
-        <li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
-        <li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
-    </ul>
-    <h2>Gold Level Sponsors</h2>
-    <ul>
-        <li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
-        <li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
-        <li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
-        <li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
-        <li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
-        <li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
-    </ul>
-    <h2>Silver Level Sponsors</h2>
-    <ul>
-        <li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
-        <li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
-        <li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
-        <li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
-        <li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
-        <li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
-    </ul>
-    <h3>Benefits of sponsoring BYU ACM</h3>
-    	<p> Benefit #1 </p>
-        <p> Benefit #2 </p>
-        <p> Benefit #3 </p>
-        <p> Benefit #4 </p>
-        <p> Benefit #5 </p>
-    
-    <h3>Interested in being a sponsor?  <a href="#">Contact BYU ACM for details</a> </h3>
+	<h2>Platinum Level Sponsors</h2>
+	<ul>
+		<li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
+		<li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
+		<li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
+		<li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>			
+		<li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
+		<li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
+	</ul>
+	<h2>Gold Level Sponsors</h2>
+	<ul>
+		<li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
+		<li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
+		<li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
+		<li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
+		<li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
+		<li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
+	</ul>
+	<h2>Silver Level Sponsors</h2>
+	<ul>
+		<li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
+		<li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
+		<li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
+		<li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
+		<li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
+		<li><a href="#"><img src="img/sponsors/1_square.jpg" /> </a></li>
+	</ul>
+
+	<h3>Benefits of Platinum Sponsorship</h3>
+		<p>Sponsorship of an ACM meeting</p>
+		<p>Your company's name & logo on email/flier announcements for that meeting</p>
+		<p>Your company's name & logo on ACM website</p>
+		<p>Your company's logo on ACM T-shirt</p>
+		<p>Opportunity to present at ACM meeting about your company</p>
+		<p>We'll send your emails about job or internship openings to BYU ACM membership</p>
+		<p>We'll help you set up and organize an info meeting about your company</p>
+		
+		<p>Other levels of sponsorship are available as well - please <a href="../contact.php">contact us</a> for more details about our other levels.</p>
 </div>
 <div id="footer">
 	<?php include("footer/footer.php") ?>
